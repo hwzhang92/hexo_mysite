@@ -4,16 +4,16 @@
 
 # Site
 title: 张洪伟的个人博客
-subtitle: Zhang Hongwei's Personal Website
-description: hexo搭建的个人博客
+subtitle: Zhang Hongwei's Personal Blog
+description: 做一个安静执着的程序员
 keywords: 博客 hexo
 author: Zhang Hongwei
-language: zh-cn
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhanghw.win
+url: https://zhanghw.win
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -29,7 +29,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

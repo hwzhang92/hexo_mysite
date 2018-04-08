@@ -6,7 +6,7 @@
 title: 张洪伟的个人博客
 subtitle: Zhang Hongwei's Personal Blog
 description: 做一个安静执着的程序员
-keywords: 博客 hexo
+keywords: 博客 hexo 程序员
 author: Zhang Hongwei
 language: zh-Hans
 timezone: Asia/Shanghai
@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://zhanghw.win
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:id/
 permalink_defaults:
 
 # Directory
@@ -80,3 +80,13 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:hwzhang92/hwzhang92.github.io.git
+
+# share
+baidushare: true
+
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

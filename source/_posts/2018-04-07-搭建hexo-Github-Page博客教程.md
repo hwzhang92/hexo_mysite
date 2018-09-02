@@ -1,7 +1,7 @@
 ---
 title: 搭建Hexo+Github Pages博客教程
 date: 2018-04-07 22:03:46
-categories: 杂项
+categories: 教程
 tags:
  - hexo
  - Github Page
@@ -162,6 +162,29 @@ $ hexo server
   }
 }
 ```
+
+## 更改favicon
+更改站点配置文件
+
+``` yml
+# To get or check favicons visit: https://realfavicongenerator.net
+# Put your favicons into `hexo-site/source/` (recommend) or `hexo-site/themes/next/source/images/` directory.
+
+# Default NexT favicons placed in `hexo-site/themes/next/source/images/` directory.
+# And if you want to place your icons in `hexo-site/source/` root directory, you must remove `/images` prefix from pathes.
+
+# For example, you put your favicons into `hexo-site/source/images` directory.
+# Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
+favicon:
+  small: /favicon-16x16.png
+  medium: /favicon-32x32.png
+  apple_touch_icon: /apple-touch-icon.png
+  safari_pinned_tab: /logo.svg
+  android_manifest: /site.webmanifest
+  ms_browserconfig: /browserconfig.xml
+```
+
+强烈推荐一个生成各种格式的favicon的在线工具：https://realfavicongenerator.net/
 
 ## 参考资源
 * [我的个人博客之旅：从jekyll到hexo](https://blog.csdn.net/u011475210/article/details/79023429)

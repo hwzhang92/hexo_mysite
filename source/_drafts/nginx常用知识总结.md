@@ -9,9 +9,9 @@ tags: nginx
 ## 403 Forbidden排错记录
 很多人以为是目录权限问题，把网站目录权限改为777后发现还是403，其实是nginx配置中的用户权限问题
 1. 查看nginx worker进程的用户
-![](http://p6ure4q2q.bkt.clouddn.com/20180503173742.png)
+![](/uploads/20180503173742.png)
 2. 查看网站目录的用户和组
-![](http://p6ure4q2q.bkt.clouddn.com/20180503174024.png)
+![](/uploads/20180503174024.png)
 3. 配置nginx权限和网站目录统一
 在nginx配置文件的第一行加上用户和组的配置
 

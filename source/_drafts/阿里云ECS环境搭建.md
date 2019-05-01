@@ -9,7 +9,7 @@ tags: 环境 nginx
 ## ssh免密登录
 1. 创建并绑定密钥对
     阿里云ECS服务器提供了管理界面方便操作，可以参考帮助文档，先[创建密钥对](https://help.aliyun.com/document_detail/51793.html?spm=a2c4g.11186623.2.7.bb3k1l)，创建成功后会自动下载私钥，记得保存好；然后[绑定密钥对](https://help.aliyun.com/document_detail/51796.html?spm=a2c4g.11186623.2.10.yHQnCc)
-    ![](http://p6ure4q2q.bkt.clouddn.com/20180410113212.png)
+    ![](/uploads/20180410113212.png)
     记得重启服务器后生效，使用ssh登录测试一下
     ```
     $ ssh -i [.pem文件路径] username@ip地址

@@ -63,11 +63,11 @@ $ hexo server
 
 ## 绑定域名
 1. 获取github pages的ip地址
-![](http://p6ure4q2q.bkt.clouddn.com/20180408141644.png)
+![](/uploads/20180408141644.png)
 1. 添加域名解析
 此步大家在自己购买的域名管理网站中配置即可。我购买的是阿里云域名，使用DNSPod提供的免费域名解析服务
 2. 配置github pages的custom 
-![](http://p6ure4q2q.bkt.clouddn.com/20180408142529.png)
+![](/uploads/20180408142529.png)
 3. 添加CNAME
 在本地博客的source目录下添加CNAME文件，内容为域名。
 
@@ -85,17 +85,17 @@ $ hexo server
 
 1. 配置LeanCloud
 请先登录或注册LeanCloud，进入控制台后点击左上角的创建新应用
-![](http://p6ure4q2q.bkt.clouddn.com/20180408145009.png)
+![](/uploads/20180408145009.png)
 创建好了后进入应用，点击左下角设置 > 应用Key，就可以看到appid和appkey了
-![](http://p6ure4q2q.bkt.clouddn.com/2.png)
+![](/uploads/2.png)
 
     {% note warning %} 
     __为了你的数据安全，请设置自己的安全域名__
-    ![](http://p6ure4q2q.bkt.clouddn.com/20180408154027.png)
+    ![](/uploads/20180408154027.png)
     {% endnote %}
 
 2. 主题配置文件开启Valine
-![](http://p6ure4q2q.bkt.clouddn.com/20180408145611.png)
+![](/uploads/20180408145611.png)
 
 还可以设置头像和邮件提醒，请参考[官方文档](https://valine.js.org/quickstart/)
 
